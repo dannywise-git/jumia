@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(228, 225, 225);
+}
+section {
+    color: black;
+    padding: 5em 0em;
+    animation-name: section;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: white;
+    /* background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white); */
+}
+/* @keyframes section{
+    0%{ background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white);}
+    25%{ background: linear-gradient(to left, rgb(117, 115, 115), white, wheat, white);}
+    50%{ background: linear-gradient(to top, rgb(117, 115, 115), white, wheat, white);}
+    75%{ background: linear-gradient(to bottom, rgb(117, 115, 115), white, wheat, white);}
+    100%{ background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white);}
+} */
+form::placeholder{
+    color: white;
+}
+.form-gen {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width:600px) {
+    .form-gen{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .form{
+        border-right: none;
+    }
+}
+.form {
+    border-right: 2px solid rgb(177, 175, 175);
+}
+h2 {
+    color: #f59d42;
+    text-align: center;
+}
+.remember {
+    margin-top: 1em;
+}
+.input {
+    border: none;
+    background: linear-gradient(to right, #61482e, #5e3102, #a3a19f, #f59d42);
+    border-bottom: 3px solid rgb(20, 20, 20);
+    color: white;
+    width: 90%;
+    height: 2.7em;
+    outline: none;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+.forget {
+    float: right;
+    text-decoration: none;
+    color:  #f59d42;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 3em;
+}
+.login-button {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    background-color: #f59d42;
+    margin-top: 1.5em;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}
+.facebook-login {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(75, 75, 177, 0.685);
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}
+button h4, button h3{
+    margin: auto;
+}
+.create {
+    /* width: 50%; */
+    margin-top: 1em;
+    padding-left: 2em;
+}
+.create p{
+    color: black;
+    font-size: 1.3em;
+}
+.acc-create {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    background-color: #f59d42;
+    margin-top: 7em;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}
+.facebook-reg {
+    display: flex;  
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(75, 75, 177, 0.685);
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}

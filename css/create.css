@@ -1,0 +1,122 @@
+section {
+    color: white;
+    padding: 5em 0em;
+    animation-name: section;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: white;
+    /* background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white); */
+}
+/* @keyframes section{
+    0%{ background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white);}
+    25%{ background: linear-gradient(to left, rgb(117, 115, 115), white, wheat, white);}
+    50%{ background: linear-gradient(to top, rgb(117, 115, 115), white, wheat, white);}
+    75%{ background: linear-gradient(to bottom, rgb(117, 115, 115), white, wheat, white);}
+    100%{ background: linear-gradient(to right, rgb(117, 115, 115), white, wheat, white);}
+} */
+form::placeholder{
+    color: white;
+}
+.form3 {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+.create-acc {
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    background-color: #f59d42;
+    margin-top: 1.5em;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 3em;
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}
+.color{
+    color: white;
+}
+form h2 {
+    color:  #f59d42;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.number input {
+    border: none;
+    background: linear-gradient(to right, #61482e, #5e3102, #a3a19f, #f59d42);
+    border-bottom: 1px solid rgb(85, 84, 84);
+    width: 93%;
+    height: 2.7em;
+    outline: none;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+.number {
+    display: flex;
+}
+.prefix{
+    line-height: 0.3em;
+}
+.fname {
+    border: none;
+    background: linear-gradient(to right, #61482e, #5e3102, #a3a19f, #f59d42);
+    border-bottom: 1px solid rgb(85, 84, 84);
+    width: 95%;
+    height: 2.7em;
+    outline: none;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+.or {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.border-right {
+    border-bottom: 1px solid black;
+    margin-left: 3em;
+    margin-bottom: 1.4em;
+}
+.border-left {
+    border-bottom: 1px solid black;
+    margin-right: 2.5em;
+    margin-bottom: 1.4em;
+}
+.facebook-reg{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 3em;
+    outline: none;
+    background-color: rgba(75, 75, 177, 0.685);
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+}
+.facebook-reg h4{
+    margin: auto;
+}
+@media only screen and (max-width:600px){
+    .input{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form3{
+        width: 90%
+    }
+    .number input {
+        width: 87%;
+    }
+    .create-acc, .facebook-reg{
+        margin-left: 0em;
+    }
+}

@@ -1,0 +1,59 @@
+@media only screen and (max-width:600px){
+    .container-1{
+        width: 90%;
+    }
+    .help-care{
+        font-size: 3em;
+    }
+    .input1{
+        width: 90%;
+    }
+    .container-1-con{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .jumia-pay{
+        grid-template-columns: 1fr 1fr;
+    }
+    .jumia-pay-com{
+        margin-top: 2em;
+    }
+    .con-image1 img{
+        height: 12em;
+    }
+    .container-2-con{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .input2{
+        width: 60%;
+        padding-left: 2em;
+    }
+    .container-help-4 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-1{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-con-1{
+        margin-left: 1em;
+    }
+    .new{
+        margin-left: 0em;
+    }
+    .apple{
+        line-height: 0.05rem;
+        margin-left: 0em;
+    }
+    .footer-2i{
+        flex-direction: column;
+        text-align: center;
+    }
+    .help-margin1 {
+        margin-left: 2em;
+    }
+    .help-icons{
+        margin-left: 10em;
+    }
+}
